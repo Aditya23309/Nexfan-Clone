@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+  />
+    <title>Fans</title>
+</head>
+<body>
+   <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="logo">
+          <img src="logo.png" alt="Logo">
+          
+        </div>
+        <button class="toggle-button">&#9776;</button>
+       
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="AboutUs.html">About</a></li>
+          <li><a href="fans.html">Fans</a></li>
+        </ul>
+        
+      </nav>
+
+       <!-- Message Section -->
+      <div class="message-section">
+        <a> <div class="message"><i class="fas fa-comments"></i> Extended hours,extended care. From 9am to 9pm.</div></a>
+         <a><div class="message"><i class="fas fa-phone-alt"></i> Instant support on WhatsApp is just a text away.</div></a>
+         <a><div class="message"> <i class="fas fa-comments"></i>Get 24x7 digital assistance.</div></a>
+       </div>
+
+ <!-- HOME Slider Section -->
+       <div class="slider">
+        <div class="slider-images">
+          <img src="Fans1.jpg" alt="Image 1">
+          <img src="fans2.jpg" alt="Image 2">
+        </div>
+        <button class="prev" onclick="prevSlide()">❮</button>
+        <button class="next" onclick="nextSlide()">❯</button>
+      </div>
+    
+ <!-- Fans Section -->
+      <h2>EXPLORE <span>NEX </span>FANS</h2>
+      <section class="boxes-section">
+        
+        <div class="box">
+          <img src="overlay.png" alt="Box 1 Image">
+          <div class="overlay">
+            <h3>Ceiling fans</h3>
+            <p>Meet the new high of comfort. Here is a range of ceiling fans powered by AeirologyTM that give 20% higher air thrust*, make lesser noise, look stunning, and give higher power savings. Fans that are engineered with you in mind.</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="overlay1.png" alt="Box 2 Image">
+          <div class="overlay">
+            <h3>TPW fans</h3>
+            <p>A range of Table, Pedestal & Wall fans where elegance meets engineering. Experience peak performance with low noise, powered by AeirologyTM , to deliver 20% higher air thrust*. Nex TPW fans are the breath of fresh air your space has been waiting for.</p>
+          </div>
+        </div>
+      </section>
+
+       <!-- NEW LAUNCHES  Section -->
+        <h2>NEW <span>LAUNCHES </span></h2>
+        <div class="launch-fan-section">
+            <div class="image-container">
+              <div class="sidebar-images">
+                <img src="overlay1.png" alt="Image 1" onclick="updateCenterImage(this, 'Glyde A5 TPW Fan Range', 'An extraordinary fan that elevates the cooling and the aesthetics of your space. Experience peak performance with low noise, powered by AeirologyTM, to deliver 20% higher air thrust*.')">
+                <img src="launch2.png" alt="Image 2" onclick="updateCenterImage(this, 'Nex Glyde A80 BLDC', 'Experience maximum torque for superior cooling, with our innovative AirFluence™ Tangential blades. Powered by AeirologyTM to deliver 20% higher air thrust* - A revolution in performance and energy efficiency with PeakTorq™ BLDC motor.')">
+                <img src="launch1.png" alt="Image 3" onclick="updateCenterImage(this, 'Nex Dryft A95 BLDC IoT', 'Where performance meets smart, with its powerful BLDC motor technology, Low noise design, & WiFi enabled features, for enhanced comfort & convenience.')">
+              </div>
+              <img src="launch4.png" alt="Center Image" class="center-image" id="centerImage">
+            </div>
+            <div class="text-content">
+              <h2 id="fanHeading">Glyde A5 TPW Fan Range</h2>
+              <p id="fanDescription">An extraordinary fan that elevates the cooling and the aesthetics of your space. Experience peak performance with low noise, powered by AeirologyTM, to deliver 20% higher air thrust*.</p>
+            </div>
+          </div>
+ <!-- IoT Image Section -->
+          <div class="banner"></div>
+ <!-- BLOGs Section -->
+          <h2>EXPLORE OUR <span>BLOGS </span></h2>
+          <section class="blog-section">
+            <div class="blog-image">
+                <img src="blog.jpg" alt="Blog Image">
+            </div>
+            <div class="blog-content">
+                <h2>From Work to Leisure Exploring Nexs Impact on Everyday Life</h2>
+                <p>
+                    In today's fast-paced world, where technology seamlessly integrates into our daily routines, Nex's premium ceiling fans stand out as more than just household appliances. They have become integral components of contemporary living, bridging the gap between work and leisure with their innovative features and advanced functionalities.
+                </p>
+            </div>
+            
+            <div class="blog-image">
+                <img src="blog1.jpg" alt="Blog Image">
+            </div>
+            <div class="blog-content">
+                <h2>Exploring Fan Construction Materials</h2>
+                <p>
+                    In the ever-evolving landscape of ceiling fan design, the choice of construction materials plays a pivotal role in shaping not just the aesthetic appeal but also the efficiency and performance of these household staples. While traditional materials like wood and metal have long been synonymous with fan construction, contemporary designs are increasingly embracing the versatility and functionality of materials such as plastic and aluminium.
+            </div>
+        </section>
+ 
+        <div class="banner4"></div>
+ <!-- Footer Section -->
+        <footer class="footer">
+          <div class="container">
+            <!-- About Section -->
+            <div class="footer-about">
+              <h4>About Us</h4>
+              <p>We have set out to revolutionise home appliances. We study the impact of appliances on our lives, how they interact with us, and how they make us feel. We fine-tune the ordinary and deliver the extraordinary.</p>
+            </div>
+        
+            
+            
+        
+            <!-- Contact Section -->
+            <div class="footer-contact">
+              <h4>Contact Us</h4>
+              <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+              <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+              <p>Address: 123 Main Street, City, Country</p>
+            </div>
+        
+            <!-- Social Media Links -->
+            <div class="footer-social">
+              <h4>Follow Us</h4>
+              <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        
+          <!-- Copyright Section -->
+          <div class="footer-bottom">
+            <p>&copy; Created By <span>Aditya Kumar Sinha</span>. All Rights Reserved.</p>
+          </div>
+        </footer>
+      
+      
+        
+
+
+
+
+
+
+
+      <script src="script1.js"></script>
+</body>
+</html>
