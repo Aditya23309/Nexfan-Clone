@@ -642,6 +642,7 @@ body {
   .image-content img, .image-contentt img {
       width: 100%;
       height: auto;
+      margin-left: 8%;
   }
 }
 
